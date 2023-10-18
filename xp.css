@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+
+body{
+
+background:url(xp.png);
+background-size: 100%;
+background-repeat: no-repeat;
+overflow: hidden;
+}
+header nav{
+    font-family: 'Dosis', sans-serif;
+}
+.slogan{
+    display: flex;
+    flex-direction: column; 
+    margin-top: 155px;
+    margin-left: 60px;
+}
+
+.titulo{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.titulo>h1{
+    color: white;
+    
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.titulo>h1::after{
+    right: 0%;
+    top: 0%;
+    
+    background-color: gray;
+    width: 25%;
+    height: 4px;
+    flex-shrink: 0;
+}
+.titulo>h2{
+    font-size: 40px;
+    color: honeydew;
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+@media only screen and (max-width:800px) {
+    /*tablet*/
+    body{
+    
+        background:url(xp.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        font-size: 5px;
+        }
+        
+        .slogan{
+            display: flex;
+            flex-direction: column; 
+            align-content: center;
+            justify-content: center;
+        }
+        
+        .titulo{
+            height: 100%;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+        }
+        .titulo>h1{
+            color: white;
+            
+            font-family: 'Dosis', sans-serif;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        .titulo>h1::after{
+            right: 0%;
+            top: 0%;
+            
+            background-color: gray;
+            width: 25%;
+            height: 4px;
+            flex-shrink: 0;
+        }
+        .titulo>h2{
+            font-size: 25px;
+            color: honeydew;
+            font-family: 'Dosis', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    
+    }
+    
+    @media only screen and (max-width:500px) {
+        /*mobile*/
+        body{
+        
+            background:url(xp.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            overflow: hidden;
+            font-size: 5px;
+            }
+            .slogan{
+                display: flex;
+                flex-direction: column; 
+                align-content: center;
+                justify-content: center;
+            }
+            
+            .titulo{
+                height: 100%;
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+            }
+            .titulo>h1{
+                color: white;
+                
+                font-family: 'Dosis', sans-serif;
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            .titulo>h1::after{
+                right: 0%;
+                top: 0%;
+                
+                background-color: gray;
+                width: 25%;
+                height: 4px;
+                flex-shrink: 0;
+            }
+            .titulo>h2{
+                font-size: 25px;
+                color: honeydew;
+                font-family: 'Dosis', sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+        }
+        
