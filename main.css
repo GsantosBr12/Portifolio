@@ -13,7 +13,7 @@ overflow: hidden;
 }
 
 header nav{
-    font-family: 'Dosis', sans-serif;
+   font-family: monospace;
 }
 
 .slogan{
@@ -41,7 +41,7 @@ header nav{
 .titulo>h1{
     color: white;
     position: relative;
-    font-family: 'Cinzel', serif;
+    font-family: monospace;
     font-size: 75px;
     font-style: normal;
     font-weight: 700;
@@ -61,7 +61,7 @@ header nav{
 .titulo>h2{
     font-size: 80px;
     color: white;
-    font-family: 'Cinzel', serif;
+    font-family: monospace;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
