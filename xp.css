@@ -10,7 +10,7 @@ background-repeat: no-repeat;
 overflow: hidden;
 }
 header nav{
-    font-family: 'Dosis', sans-serif;
+    font-family: monospace;
 }
 .slogan{
     display: flex;
