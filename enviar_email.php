@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mensagem = $_POST["mensagem"];
     
     // Destinatário
-    $destinatario = "12201986@aluno.cotemig.com.br"; // Substitua pelo seu endereço de e-mail
+    $destinatario = "gustavosantoscontato.pf@gmail.com"; // Substitua pelo seu endereço de e-mail
 
     // Assunto
     $assunto = "Nova mensagem de $nome";
