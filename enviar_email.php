@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Envie o e-mail
 
-ini_set("SMTP", "smtp.gmail.com");
+ini_set("SMTP", "gustavosantoscontato.pf@gmail.com");
 ini_set("smtp_port", "587");
 
     
