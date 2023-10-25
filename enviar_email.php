@@ -4,18 +4,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST["email"];
     $mensagem = $_POST["mensagem"];
     
-    // Destinatário
-    $destinatario = "gustavosantoscontato.pf@gmail.com"; // Substitua pelo seu endereço de e-mail
+   
+    $destinatario = "gustavosantoscontato.pf@gmail.com"; 
 
-    // Assunto
+    
     $assunto = "Nova mensagem de $nome";
 
-    // Cabeçalhos
+   
     $headers = "De: $email" . "\r\n" .
                "Reply-To: $email" . "\r\n" .
                "X-Mailer: PHP/" . phpversion();
 
-    // Envie o e-mail
+   
 
 ini_set("SMTP", "gustavosantoscontato.pf@gmail.com");
 ini_set("smtp_port", "587");
