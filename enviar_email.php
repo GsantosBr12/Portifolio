@@ -16,6 +16,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                "X-Mailer: PHP/" . phpversion();
 
     // Envie o e-mail
+
+ini_set("SMTP", "smtp.gmail.com");
+ini_set("smtp_port", "587");
+
+    
     mail($destinatario, $assunto, $mensagem, $headers);
     
     echo "Mensagem enviada com sucesso!";
