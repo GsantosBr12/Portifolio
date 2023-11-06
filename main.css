@@ -234,4 +234,9 @@ body{
         }
     
     }
-    
+
+.fotop{
+position: absolute;
+padding-left: 60%;
+padding-top:7% ;
+    }
