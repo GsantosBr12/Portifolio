@@ -458,3 +458,15 @@ svg:hover::befores {
     margin-left: 60px;
     font-family: monospace;
   }
+.success,
+.error {
+  text-align: center;
+}
+
+.success {
+  color: greenyellow;
+}
+
+.error {
+  color: tomato;
+}
